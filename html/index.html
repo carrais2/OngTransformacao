@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Transformação - Início</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal com Flexbox -->
+   <!-- Cabeçalho Principal com Flexbox -->
+    <header class="cabecalho-principal">
+        <div class="logo-container">
+            <!-- Tente a extensão correta da sua imagem (logo.jpg ou logo.png) -->
+            <img src=../img/logo.jpg alt="Logotipo da ONG Transformação" class="logo-img">
+        </div>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="acao.html">Projetos</a></li>
+                <li><a href="acao.html">Engaje-se</a></li>
+                <li><a href="acao.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal estruturado com CSS Grid -->
+    <main class="container-principal">
+        
+        <!-- Seção de Destaque com Imagem dos Colaboradores -->
+        <section class="secao-destaque">
+            <h2>Nossa Missão em Ação</h2>
+            <p>Conheça o trabalho dos nossos voluntários dedicados à transformação social e comunitária.</p>
+            <div class="foto-colaboradores">
+                <img src=../img/solidaria.jpeg alt="Colaboradores da ONG Transformação fazendo a montagem de cestas básicas">
+                <span class="legenda-foto">Equipe unida na montagem e distribuição de cestas básicas.</span>
+            </div>
+        </section>
+
+        <!-- Seção de Componentes de Feedback (Badges e Alertas) -->
+        <section class="secao-feedback">
+            <h2>Central de Avisos e Feedback</h2>
+            
+            <!-- Badges -->
+            <div class="grupo-badges">
+                <span class="badge badge-sucesso">Inscrição Ativa</span>
+                <span class="badge badge-alerta">Urgente: Vagas Limitadas</span>
+            </div>
+
+            <!-- Caixas de Alerta -->
+            <div class="alerta alerta-sucesso">
+                <strong>Sucesso!</strong> Sua doação ou cadastro foi registrado com sucesso.
+            </div>
+            
+            <div class="alerta alerta-erro">
+                <strong>Atenção!</strong> Preencha os campos obrigatórios corretamente antes de prosseguir.
+            </div>
+
+            <!-- Botões Interativos direcionando para a segunda página -->
+            <div class="grupo-botoes">
+                <a href="acao.html" class="btn btn-primario">Fazer Doação</a>
+                <a href="acao.html" class="btn btn-secundario">Quero ser Voluntário</a>
+                <button class="btn" disabled>Indisponível</button>
+            </div>
+        </section>
+
+        <!-- Seção de Cartões de Voluntariado e Projetos -->
+        <section class="voluntariado">
+            <article class="cartao">
+                <h3>Apoio Escolar</h3>
+                <p>Reforço educacional direcionado para crianças e adolescentes da comunidade carente.</p>
+                <a href="acao.html" class="btn btn-primario">Participar do Projeto</a>
+            </article>
+            <article class="cartao">
+                <h3>Banco de Alimentos</h3>
+                <p>Arrecadação, montagem de kits e distribuição de mantimentos essenciais para famílias cadastradas.</p>
+                <a href="acao.html" class="btn btn-primario">Participar do Projeto</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape-site">
+        <p>&copy; 2026 ONG Transformação. Todos os direitos reservados.</p>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
