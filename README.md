@@ -3,10 +3,11 @@
 ## 1. Visão Geral do Projeto
 Plataforma web desenvolvida para a ONG Transformação, com foco na apresentação institucional, divulgação de projetos sociais e captação de voluntariado.
 
-## 2. Tecnologias e Acessibilidade (WCAG)
-- **HTML5 Semântico**: Utilização de marcos estruturais (<header>, <nav>, <main>, <footer>) em substituição de divs genéricas.
-- **Atributos WAI-ARIA**: Integração de ole="dialog", ria-modal="true", ria-required="true" e ria-describedby para suporte a leitores de ecrã.
-- **JavaScript (ES6+)**: Scripts na pasta js/ com navegação SPA, templates dinâmicos, validação de formulário e persistência no localStorage.
+## 2. Tecnologias e Acessibilidade (WCAG 2.1)
+- **HTML5 Semântico e Landmarks**: Utilização de <header>, <nav>, <main>, <footer>.
+- **Navegação por Teclado**: Ordem de foco lógica natural, estilos visuais para :focus (outline) e armadilha de foco (focus trap) em modais.
+- **Atributos WAI-ARIA**: Uso de ole="dialog", ria-modal="true" e ria-required="true".
+- **JavaScript (ES6+)**: Gestão de rotas SPA, templates dinâmicos, validação de formulários e armazenamento no localStorage.
 
 ## 3. Instalação Local e Execução
 1. Clone o repositório: git clone https://github.com/carrais2/OngTransformacao.git
