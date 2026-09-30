@@ -3,9 +3,9 @@
 ## 1. Visão Geral do Projeto
 Plataforma web desenvolvida para a ONG Transformação, com foco na apresentação institucional, divulgação de projetos sociais e captação de voluntariado.
 
-## 2. Tecnologias Utilizadas
-- **HTML5 Semântico**: Estruturação das páginas na pasta html/.
-- **CSS3**: Estilização responsiva organizada na pasta CSS/.
+## 2. Tecnologias e Acessibilidade (WCAG)
+- **HTML5 Semântico**: Utilização de marcos estruturais (<header>, <nav>, <main>, <footer>) em substituição de divs genéricas.
+- **Atributos WAI-ARIA**: Integração de ole="dialog", ria-modal="true", ria-required="true" e ria-describedby para suporte a leitores de ecrã.
 - **JavaScript (ES6+)**: Scripts na pasta js/ com navegação SPA, templates dinâmicos, validação de formulário e persistência no localStorage.
 
 ## 3. Instalação Local e Execução
